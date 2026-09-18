@@ -6,15 +6,15 @@
 #    By: ohaker <ohaker@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/06 19:08:54 by ohaker            #+#    #+#              #
-#    Updated: 2026/09/18 19:54:54 by ohaker           ###   ########.fr        #
+#    Updated: 2026/09/18 20:18:16 by ohaker           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Serialization
+NAME = Identifier
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
-SRC = main.cpp Serialization.cpp Data.cpp
+SRC = main.cpp Identifier.cpp
 OBJS = $(SRC:.cpp=.o)
 
 # Color definitions for terminal output
