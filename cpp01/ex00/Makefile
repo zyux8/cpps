@@ -6,7 +6,7 @@
 #    By: ohaker <ohaker@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/02/25 19:30:01 by ohaker            #+#    #+#              #
-#    Updated: 2026/02/25 19:32:51 by ohaker           ###   ########.fr        #
+#    Updated: 2026/09/18 18:36:37 by ohaker           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,7 +49,7 @@ clean:
 re:	fclean all
 
 gitpush:
-	cd ..; \
+	cd ../..; \
 	git add .; \
 	git status; \
 	echo "$(ORANGE)		- Enter commit message:$(NONE)"; \
